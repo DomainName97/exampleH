@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Карта"
+            android:icon="@drawable/maps" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="Задания"
+            android:icon="@drawable/tasks"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="Выписанные штрафы"
+            android:icon="@drawable/tax"/>
+
+        <item
+            android:id="@+id/nav_notification"
+            android:title="Уведомления"
+            android:icon="@drawable/outline_notifications_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_exam"
+            android:title="Обучение"
+            android:icon="@drawable/outline_menu_book_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_info"
+            android:title="Информация"
+            android:icon="@drawable/outline_feed_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_contacts"
+            android:title="Контакты"
+            android:icon="@drawable/outline_phone_black_24dp"/>
+    </group>
+</menu>
